@@ -1,3 +1,4 @@
+import Categories from './components/Categories';
 import Food from './components/Food';
 import HeadlineCards from './components/HeadlineCards';
 import Hero from './components/Hero';
@@ -11,6 +12,7 @@ const App = () => {
             <Hero />
             <HeadlineCards />
             <Food />
+            <Categories />
         </div>
     )
 };
