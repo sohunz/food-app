@@ -9,7 +9,7 @@ const HeadlineCards = () => {
                         </p>
                         <p>Through 8/26</p>
                     </div>
-                    <button className="border-white bg-white text-black w-[130px]">
+                    <button className="border-white bg-white text-black w-[130px] rounded-full">
                         Order Now
                     </button>
                 </div>
@@ -26,7 +26,7 @@ const HeadlineCards = () => {
                         </p>
                         <p>Add Daily</p>
                     </div>
-                    <button className="border-white bg-white text-black w-[130px]">
+                    <button className="border-white bg-white text-black w-[130px] rounded-full">
                         Order Now
                     </button>
                 </div>
@@ -43,7 +43,7 @@ const HeadlineCards = () => {
                         </p>
                         <p>Tasty Treats</p>
                     </div>
-                    <button className="border-white bg-white text-black w-[130px]">
+                    <button className="border-white bg-white text-black w-[130px] rounded-full">
                         Order Now
                     </button>
                 </div>

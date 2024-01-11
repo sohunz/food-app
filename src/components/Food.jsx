@@ -17,26 +17,26 @@ const Food = () => {
 
     return (
         <>
-            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold py-10">
+            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold py-10 text-orange-600">
                 Top Rated Menu Items
             </h1>
             <div className="lg:flex justify-between p-4">
                 <div className="flex flex-col mb-3">
                     <p className="font-bold">Filter Type</p>
                     <ul className="flex gap-3 pt-3 flex-wrap">
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => setFoods(data)}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => setFoods(data)}>
                             All
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterType('burger')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterType('burger')}>
                             Burgers
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterType('pizza')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterType('pizza')}>
                             Pizza
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterType('salad')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterType('salad')}>
                             Salads
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterType('chicken')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterType('chicken')}>
                             Chicken
                         </li>
                     </ul>
@@ -44,16 +44,16 @@ const Food = () => {
                 <div className="flex flex-col flex-wrap">
                     <p className="font-bold">Filter Price</p>
                     <ul className="flex gap-3 pt-3">
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterPrice('$')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterPrice('$')}>
                             $
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterPrice('$$')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterPrice('$$')}>
                             $$
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterPrice('$$$')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterPrice('$$$')}>
                             $$$
                         </li>
-                        <li className="cursor-pointer border rounded-full px-5 py-2" onClick={() => filterPrice('$$$$')}>
+                        <li className="cursor-pointer border rounded-full px-5 py-2 text-orange-600" onClick={() => filterPrice('$$$$')}>
                             $$$$
                         </li>
                     </ul>

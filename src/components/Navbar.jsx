@@ -21,10 +21,10 @@ const Navbar = () => {
                     <AiOutlineMenu size={25} />
                 </div>
                 <h1 className="lg:text-4xl md:text-3xl sm:text-2xl text-xl px-2">
-                    Best <span className="font-bold">Eats</span>
+                    Best <span className="font-bold text-orange-600">Eats</span>
                 </h1>
                 <div className="hidden lg:flex items-center bg-gray-300 p-1 rounded-full text-[14px]">
-                    <p className="bg-black p-2 rounded-full text-white">
+                    <p className="bg-orange-600 p-2 rounded-full text-white">
                         Delivery
                     </p>
                     <p className="p-2">Pickup</p>
@@ -33,16 +33,17 @@ const Navbar = () => {
 
             {/* search input */}
             <div className="bg-gray-200 rounded-full px-2 flex items-center w-[200px] sm:w-[400px] lg:w-[500px]">
-                <AiOutlineSearch size={22} />
+                <AiOutlineSearch size={22} className="text-orange-600"/>
                 <input
                     className="bg-transparent p-2 w-full focus:outline-none"
                     type="text"
                     placeholder="Search foods"
+                
                 />
             </div>
 
             {/* cart button */}
-            <button className="bg-black text-white hidden md:flex items-center py-2 gap-2 rounded-full">
+            <button className="bg-orange-600 text-white hidden md:flex items-center py-2 gap-2 rounded-full outline-none border-none" >
                 <BsFillCartFill size={20} />
                 Cart
             </button>
@@ -65,32 +66,32 @@ const Navbar = () => {
                 />
                 </div>
                 <h2 className="text-2xl p-4">
-                    Best <span className="font-bold">Eats</span>
+                    Best <span className="font-bold text-orange-600">Eats</span>
                 </h2>
                 <nav>
                     <ul className="flex flex-col p-4 text-gray-800">
                         <li className="text-xl py-4 flex">
-                            <TbTruckDelivery size={25} className="mr-4" />{" "}
+                            <TbTruckDelivery size={25} className="mr-4 text-orange-600" />{" "}
                             Orders
                         </li>
                         <li className="text-xl py-4 flex">
-                            <MdFavorite size={25} className="mr-4" /> Favorites
+                            <MdFavorite size={25} className="mr-4 text-orange-600" /> Favorites
                         </li>
                         <li className="text-xl py-4 flex">
-                            <FaWallet size={25} className="mr-4" /> Wallet
+                            <FaWallet size={25} className="mr-4 text-orange-600" /> Wallet
                         </li>
                         <li className="text-xl py-4 flex">
-                            <MdHelp size={25} className="mr-4" /> Help
+                            <MdHelp size={25} className="mr-4 text-orange-600" /> Help
                         </li>
                         <li className="text-xl py-4 flex">
-                            <AiFillTag size={25} className="mr-4" /> Promotions
+                            <AiFillTag size={25} className="mr-4 text-orange-600" /> Promotions
                         </li>
                         <li className="text-xl py-4 flex">
-                            <BsFillSaveFill size={25} className="mr-4" /> Best
+                            <BsFillSaveFill size={25} className="mr-4 text-orange-600" /> Best
                             One
                         </li>
                         <li className="text-xl py-4 flex">
-                            <FaUserFriends size={25} className="mr-4" /> Invite
+                            <FaUserFriends size={25} className="mr-4 text-orange-600" /> Invite
                             Friends
                         </li>
                     </ul>
